@@ -1,0 +1,11 @@
+# ignore tất cả các file trong node_modules
+node_modules/**
+
+# Không ignore 1 file trong node_modules
+!node_modules/lib.js
+
+#Ignore tất cả các file ts
+dist/**.ts 
+
+#ignore tất cả file có chữ log đầu
+log*
